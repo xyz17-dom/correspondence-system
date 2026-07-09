@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/correspondence-system/', // <--- Bagian ini wajib ada agar aset CSS/JS Anda tidak hilang!
+  base: '/', // <--- Bagian ini wajib ada agar aset CSS/JS Anda tidak hilang!
 })
